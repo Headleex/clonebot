@@ -13,7 +13,7 @@ from plugins.commands import reply_markup_home
 from plugins.index_files import index_target_chat, purge_media
 
 if bool(os.environ.get("ENV", False)):
-    from sample_config import Config
+    from config import Config
 else:
     from config import Config
 

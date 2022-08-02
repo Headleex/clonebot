@@ -16,7 +16,7 @@ master_index = []           # Unique id index of cloning medias (including targe
 file_types = ["document", "video", "audio", "voice", "photo", "text"]
 
 if bool(os.environ.get("ENV", False)):
-    from sample_config import Config
+    from config import Config
 else:
     from config import Config
 
