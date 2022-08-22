@@ -24,7 +24,7 @@ class Config(object):
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
 
     # Generate a user session string
-    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BADy3uQAjlJq-u6JJW5BxhJNfLvdv9GWnTdEdAIPi7OlEXd1j-D1aBmQVfhh0R4t1zueTuZoB9PbVGENzcuIlFMGQvhm6OiEXrcQK_kN1GNEairvL5GnRFskvSTl9hJ_vVP05uWw3vjFQ4GXkl7vNCcSL46XmqIKRis-NWbRGoWGxE2HdW_T_6utOQw7lbcdcXWO6-BNt04AKeoShB87HPMeAxu6ToSFILIZxMfFCuH0RsGeQub-L9Z3xGayMWYTDsc9frcC5YfFI4rNmHXXex1STxDc3b7hPg7IuTmJmB3LBEVnBCd5cfKz3p3QOZJuHjDjojOH0y4f0QEaV3Fu078qDHUkeAAAAAFEV819AA")
+    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BADy3uQAwDR5JKezYCTkqjxlYJtCDAfMinBjug7wuojel7ramYUaPcBkIH7KQWxxAMs7WJmESW0u_KK92yQkPiPss79S3o6iC0wZOcah4CRUhleyofnb0f6WfEFU5jTAdqVIXaIuGkOpZx6rHcMVjMb3BYUhVCQZdbx6F0I2XssBbYj-kjo4_wznsIMdH4P9v-eSALHPKKE0PjbBPLVmJAV9NGoeJ9kCLvgTfoeP_KrbEf4y1j5n0l5s8rmJF6qfNOHdoaeOulwAC7pktJdkmbaWiwe-a3QS3l-ilM-wmUrDwhOlYCI7s3rxY8bIDoP14ySJBIlEUyVQodqWdldHXXx5HVI1BAAAAAFEV819AA")
 
     # Database URI
     DB_URI = os.environ.get("DATABASE_URL", "")
